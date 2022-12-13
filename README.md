@@ -27,7 +27,6 @@
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
 ## Installation
-
 ```bash
 # install nest CLI
 $ npm i -g @nestjs/cli
@@ -37,6 +36,15 @@ $ nest new PROJECT_NAME
 
 # install dependencies
 $ npm install
+```
+
+## Database
+```bash
+# run/create migration
+$ npx prisma migrate dev
+
+# open gui prisma client
+$ npx prisma studio
 ```
 
 ## Running the app
